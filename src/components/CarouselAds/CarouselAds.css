@@ -1,0 +1,45 @@
+.carousel .swiper-button-next {
+    background-color: #FFFFFFB3;
+    padding: 40px 18px;
+    margin-right: -10px;
+    border-radius: 10px 0px 0px 10px;
+    position: absolute;
+    top: 130px;
+  }
+
+  .carousel .swiper-button-prev{
+    background-color: #FFFFFFB3;
+    padding: 40px 18px;
+    margin-left: -10px;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    top: 120px;
+  }
+
+ 
+
+  .carousel .mob-swiper{
+    display: none;
+  }
+
+
+  @media screen and (max-width:830px) {
+    .carousel .desk-swiper{
+        display: none;
+    }
+    .carousel .mob-swiper{
+        display: block;
+        padding: 0px 10px 10px 10px;
+        margin-top: -50px;
+    }
+
+    .carousel .swiper{
+        border-radius: 15px;
+    }
+
+    .carousel .advertise img{
+        border-radius: 15px;
+        width: 100%;
+    }
+  }
+  

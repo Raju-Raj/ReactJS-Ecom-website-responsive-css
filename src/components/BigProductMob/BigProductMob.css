@@ -1,0 +1,17 @@
+@media screen and (max-width:830px) {
+    .bigProductMob{
+        padding: 10px;
+    }
+    
+    .bigProductMob h3{
+        text-align: center;
+        color: #393939;
+    }
+}
+
+@media screen and (max-width:412px){
+    .bigProductMob h3{
+        font-size: 13px;
+    }
+}
+

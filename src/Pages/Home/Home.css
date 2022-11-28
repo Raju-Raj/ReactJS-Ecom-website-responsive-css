@@ -1,0 +1,22 @@
+.home .miniproduct .mobproductview{
+    display: none;
+}
+
+.home .bigproduct .mobbigproductview{
+    display: none;
+}
+
+@media screen and (max-width:830px) {
+    .home .miniproduct .mobproductview{
+        display: block;
+    }
+    .home .miniproduct .deskproductview{
+        display: none;
+    }
+    .home .bigproduct .mobbigproductview{
+        display: block;
+    }
+    .home .bigproduct .deskbigproductview{
+        display: none;
+    }
+}

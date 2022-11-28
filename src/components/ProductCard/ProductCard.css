@@ -1,0 +1,161 @@
+.product-card{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.product-card .heading{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.product-card .heading .title{
+    cursor: pointer;
+    color:#333333;
+}
+
+.product-card .heading .title:hover{
+    color: #244266;
+}
+
+.product-card .heading .icon{
+    color:#333333;
+}
+
+.product-card .body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.product-card .body .b-body,
+.product-card .body .t-body{
+    display: flex;
+    gap: 10px;
+}
+
+.product-card .body .t-body .img-two,
+.product-card .body .t-body .img-one,
+.product-card .body .b-body .img-two,
+.product-card .body .b-body .img-one{
+    height: 130px;
+    width: 120px;
+    border: 1px solid gray;
+    padding: 2px;
+}
+
+.product-card .body .t-body .img-two img,
+.product-card .body .t-body .img-one img,
+.product-card .body .b-body .img-two img,
+.product-card .body .b-body .img-one img{
+    width: 100%;
+    height: 100%; 
+}
+
+.product-card .body .t-body .img-two p,
+.product-card .body .t-body .img-one p,
+.product-card .body .b-body .img-two p,
+.product-card .body .b-body .img-one p{
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-card .body .b-body .img-one p:hover{
+    text-decoration: underline;
+}
+
+.product-card .body .b-body .img-two p:hover{
+    text-decoration: underline;
+}
+
+.product-card .body .t-body .img-one p:hover{
+    text-decoration: underline;
+}
+
+.product-card .body .t-body .img-two p:hover{
+    text-decoration: underline;
+}
+
+
+.product-card .foot{
+    display: flex;
+    color: #006699;
+    margin-top: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product-card .foot:hover .icon{
+    margin-left: 5px;
+}
+
+.product-card .foot .name{
+    font-size: 13px;
+}
+
+.product-card .foot .icon{
+    margin-top: 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .product-card .body .t-body .img-two,
+.product-card .body .t-body .img-one,
+.product-card .body .b-body .img-two,
+.product-card .body .b-body .img-one{
+    height: 100px;
+    width: 100px;
+    
+}  
+}
+
+@media screen and (max-width:1100px) {
+
+    .product-card .body .t-body .img-two,
+.product-card .body .t-body .img-one,
+.product-card .body .b-body .img-two,
+.product-card .body .b-body .img-one{
+    height: 90px;
+    width: 90px;
+}
+
+.product-card .body .t-body .img-two p,
+.product-card .body .t-body .img-one p,
+.product-card .body .b-body .img-two p,
+.product-card .body .b-body .img-one p{
+    color: #333333;
+    font-size: 12px;
+}
+
+    
+}
+
+@media screen and (max-width:980px) {
+
+    .product-card .body .t-body .img-two,
+.product-card .body .t-body .img-one,
+.product-card .body .b-body .img-two,
+.product-card .body .b-body .img-one{
+    height: 80px;
+    width: 80px;
+}
+
+.product-card .body .t-body .img-two p,
+.product-card .body .t-body .img-one p,
+.product-card .body .b-body .img-two p,
+.product-card .body .b-body .img-one p{
+    color: #333333;
+    font-size: 10px;
+}
+
+    
+}
